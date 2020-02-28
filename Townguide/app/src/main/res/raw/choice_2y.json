@@ -1,0 +1,124 @@
+{
+  "quiz": [
+    {
+      "id": "1",
+      "question": "What is Arrowtown famous for?",
+      "choices": [{
+        "a": "Stunning autumn color.",
+        "b": "Uphill Gondola ride.",
+        "c": "Ferburger",
+        "d": "Bungy Jumping"
+      }],
+      "correctChoice": "a",
+      "feedback": "Arrowtown Autumn Festival features various type of events like market, parade, barbershop quartet competitions, variety concerts, street entertainment and the miners hop along with sheep races and wheelbarrow races down the main street with one sheep going AWOL and ending up in one of the shops."
+    },
+    {
+      "id": "2",
+      "question": "Why is Arrowtown called Arrowtown?",
+      "choices": [{
+        "a": "The maori's weapon.",
+        "b": "The famous actor.",
+        "c": "The nearby mountain.",
+        "d": "The nearby river."
+      }],
+      "correctChoice": "d",
+      "feedback": "The mining settlement became known as Fox's, but soon afterwards was changed to Arrowtown after the nearby river (named the Arrow because its point of junction with Bush Creek resembled the outline of an arrowhead)."
+    },
+    {
+      "id": "3",
+      "question": "What is not the activity in Arrowtown?",
+      "choices": [{
+        "a": "Visit Arrowtown Chinese settlement.",
+        "b": "Visit Chard Farm Winery.",
+        "c": "Visit the blue penguin colony",
+        "d": "Pan for gold in the Arrow river."
+      }],
+      "correctChoice": "c",
+      "feedback": "Visit the blue penguin colony is not the activity to do in Arrowtown."
+    },
+    {
+      "id": "4",
+      "question": "Why did the former people settle in Arrowtown ",
+      "choices": [{
+        "a": "They did the gold mining.",
+        "b": "They were farmers.",
+        "c": "They stayed in the place long time ago.",
+        "d": "They loved the atmosphere."
+      }],
+      "correctChoice": "a",
+      "feedback": "Gold was found in the Arrow River in 1862, and a township of 1,000 miners soon sprang up."
+    },
+    {
+      "id": "5",
+      "question": "What was the initial name of Arrowtown?",
+      "choices": [{
+        "a": "Wolf",
+        "b": "Penguin",
+        "c": "Fox",
+        "d": "Dodo"
+      }],
+      "correctChoice": "c",
+      "feedback": "It was initially named Fox's, based on William Fox's claim to have been first to find gold there, but was soon renamed Arrowtown."
+    },
+    {
+      "id": "6",
+      "question": "How far is Arrowtown from Queenstown?",
+      "choices": [{
+        "a": "About 3 km.",
+        "b": "About 23 km.",
+        "c": "About 70 km.",
+        "d": "About 99 km."
+      }],
+      "correctChoice": "b",
+      "feedback": "The distance between Arrowtown and Queenstown is 17 km. The road distance is 22.5 km."
+    },
+    {
+      "id": "7",
+      "question": "What museum is located in Arrowtown?",
+      "choices": [{
+        "a": "Otago Museum",
+        "b": "Lakes District Museum & Art Gallery",
+        "c": "World of WearableArt & Classic Cars Museum",
+        "d": "Air Force Museum New Zealand"
+      }],
+      "correctChoice": "b",
+      "feedback": "The Lakes District Museum is situated in the heart of picturesque Arrowtown. The museum houses a fantastic collection of artifacts and information about the history of this gorgeous district."
+    },
+    {
+      "id": "8",
+      "question": "What is not the outdoor activity in Arrowtown?",
+      "choices": [{
+        "a": "Biking",
+        "b": "Golf",
+        "c": "Bungy jumping",
+        "d": "Gold panning"
+      }],
+      "correctChoice": "c",
+      "feedback": "Arrowtown satisfies many sides of your personality. The nature lover, the outdoors adventurer, the museum visitor, the shop browser. The charm of historic Buckingham Street, while savouring a coffee."
+    },
+    {
+      "id": "9",
+      "question": "What is the so called name of Arrowtown Post Office?",
+      "choices": [{
+        "a": "Post and Telegraph office",
+        "b": "Post and Cat office",
+        "c": "Post and Kiwi office",
+        "d": "Post and Jade office"
+      }],
+      "correctChoice": "a",
+      "feedback": "The Lakes District Museum runs the Arrowtown Post Office (built 1915) located across the street from the Museum. This is one of the few remaining post offices in New Zealand still called a 'Post and Telegraph' office."
+    },
+    {
+      "id": "10",
+      "question": "Do you need a permit to pan for gold in Arrowtown?",
+      "choices": [{
+        "a": "You need the permission.",
+        "b": "You are not allowed.",
+        "c": "You can do gold panning anywhere in NZ.",
+        "d": "You can do it in Arrowtown."
+      }],
+      "correctChoice": "d",
+      "feedback": "Gold panning in Arrowtown is a \"short-visit\" fun activity for children and adults. The Arrow River is just two minutes from town - simply hire a gold pan, walk down to the river bank and get started."
+    }
+  ]
+}
