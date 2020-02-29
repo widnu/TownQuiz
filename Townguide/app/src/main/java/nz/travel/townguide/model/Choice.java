@@ -2,7 +2,6 @@ package nz.travel.townguide.model;
 
 public class Choice {
 
-
     private String choiceDesc;
 
     private boolean isCorrect;

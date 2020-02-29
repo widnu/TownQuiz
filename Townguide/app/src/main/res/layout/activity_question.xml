@@ -5,7 +5,9 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".QuestionActivity">
+        tools:context=".QuestionActivity"
+        android:backgroundTint="#80FFFFFF"
+        android:backgroundTintMode="src_over">
 
     <LinearLayout
             android:orientation="vertical"
@@ -14,22 +16,19 @@
             tools:layout_editor_absoluteY="8dp"
             tools:layout_editor_absoluteX="8dp"
             android:gravity="top|left"
-            android:id="@+id/layoutQuestionMain"
-            android:background="@drawable/bg_0"
-            android:backgroundTint="#80FFFFFF"
-            android:backgroundTintMode="src_over">
+            android:id="@+id/layoutQuestionMain">
         <TextView
                 android:text="NA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvQuestion"
-                android:paddingTop="50dp"
-                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="24sp"
-                android:textColor="@android:color/holo_green_dark"
+                android:textColor="@color/colorAccent"
                 android:background="@android:color/white"
                 android:backgroundTint="#80FFFFFF"/>
         <FrameLayout
@@ -51,7 +50,7 @@
                         android:id="@+id/rbAns0"
                         android:layout_weight="1"
                         android:textSize="20sp"
-                        android:textColor="@android:color/holo_green_dark"/>
+                        android:textColor="@color/colorAccent"/>
                 <RadioButton
                         android:text="RadioButton"
                         android:layout_width="match_parent"
@@ -59,7 +58,7 @@
                         android:id="@+id/rbAns1"
                         android:layout_weight="1"
                         android:textSize="20sp"
-                        android:textColor="@android:color/holo_green_dark"/>
+                        android:textColor="@color/colorAccent"/>
                 <RadioButton
                         android:text="RadioButton"
                         android:layout_width="match_parent"
@@ -67,7 +66,7 @@
                         android:id="@+id/rbAns2"
                         android:layout_weight="1"
                         android:textSize="20sp"
-                        android:textColor="@android:color/holo_green_dark"/>
+                        android:textColor="@color/colorAccent"/>
                 <RadioButton
                         android:text="RadioButton"
                         android:layout_width="match_parent"
@@ -75,7 +74,7 @@
                         android:id="@+id/rbAns3"
                         android:layout_weight="1"
                         android:textSize="20sp"
-                        android:textColor="@android:color/holo_green_dark"/>
+                        android:textColor="@color/colorAccent"/>
 
             </RadioGroup>
         </FrameLayout>
@@ -86,7 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvInPageResult"
-                android:paddingTop="20dp"
+                android:paddingTop="10dp"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="24sp"
@@ -99,28 +98,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvInPageScore"
-                android:paddingTop="20dp"
+                android:paddingTop="10dp"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textSize="24sp"
                 android:textColor="@android:color/holo_red_dark"
                 android:background="@android:color/white"
                 android:backgroundTint="#80FFFFFF"/>
-
-        <TextView
-                android:text=""
+        <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tvInPageFeedback"
-                android:paddingTop="20dp"
-                android:textSize="20sp"
-                android:textColor="@android:color/holo_green_dark"
-                android:gravity="top|left"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:layout_height="120dp" tools:ignore="MissingConstraints"
                 android:background="@android:color/white"
-                android:backgroundTint="#80FFFFFF"/>
-
+                android:backgroundTint="#80FFFFFF">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|bottom">
+                <TextView
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvInPageFeedback"
+                        android:paddingTop="10dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorAccent"
+                        android:gravity="top|left"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"/>
+            </LinearLayout>
+        </ScrollView>
 
         <LinearLayout
                 android:orientation="horizontal"
@@ -152,4 +159,5 @@
         </LinearLayout>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

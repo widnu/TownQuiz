@@ -114,6 +114,10 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 tvInPageScore.setText(String.valueOf(totalScore) + "/" + String.valueOf(quizList.size()));
                 btnNextQuestion.setEnabled(true);
                 btnSubmitAnswer.setEnabled(false);
+                rbAns0.setEnabled(false);
+                rbAns1.setEnabled(false);
+                rbAns2.setEnabled(false);
+                rbAns3.setEnabled(false);
             }
 
         } else if (v.getId() == R.id.btnNextQuestion) {
@@ -174,6 +178,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
 
         layoutQuestionMain.setBackground(ContextCompat.getDrawable(getApplicationContext(), getBackgroundImage(quiz.getBackgroundImage())));
+        layoutQuestionMain.getBackground().setAlpha(80);
     }
 
     /**

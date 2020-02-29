@@ -21,7 +21,7 @@ public class LandingActivity extends AppCompatActivity {
 
         addListenerOnButton();
 
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("AnswerPref", Context.MODE_PRIVATE); // 0 - for private mode
+        SharedPreferences pref = getApplicationContext().getSharedPreferences("AnswerPref", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
         editor.putInt("questionIndex", 0);
         editor.putInt("totalScore", 0);
