@@ -3,12 +3,11 @@ package nz.travel.townguide;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.text.Layout;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 import androidx.core.content.ContextCompat;
 import nz.travel.townguide.constant.Constants;
 import nz.travel.townguide.model.Choice;
@@ -130,12 +129,14 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
             } else {
                 Log.d("onclick", "Go to the result page.");
                 Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
             }
         }
     }
@@ -186,22 +187,22 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 return R.drawable.bg_0;
             case "bg_1":
                 return R.drawable.bg_1;
-//            case "bg_2":
-//                return R.drawable.bg_2;
-//            case "bg_3":
-//                return R.drawable.bg_3;
-//            case "bg_4":
-//                return R.drawable.bg_4;
-//            case "bg_5":
-//                return R.drawable.bg_5;
-//            case "bg_6":
-//                return R.drawable.bg_6;
-//            case "bg_7":
-//                return R.drawable.bg_1;
-//            case "bg_8":
-//                return R.drawable.bg_2;
-//            case "bg_9":
-//                return R.drawable.bg_3;
+            case "bg_2":
+                return R.drawable.bg_2;
+            case "bg_3":
+                return R.drawable.bg_3;
+            case "bg_4":
+                return R.drawable.bg_4;
+            case "bg_5":
+                return R.drawable.bg_5;
+            case "bg_6":
+                return R.drawable.bg_6;
+            case "bg_7":
+                return R.drawable.bg_1;
+            case "bg_8":
+                return R.drawable.bg_2;
+            case "bg_9":
+                return R.drawable.bg_3;
             default:
                 return R.drawable.bg_0;
         }

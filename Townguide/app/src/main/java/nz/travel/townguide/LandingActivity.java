@@ -1,14 +1,12 @@
 package nz.travel.townguide;
 
-import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
-import nz.travel.townguide.utils.DataGenerator;
 
 public class LandingActivity extends AppCompatActivity {
 
@@ -38,13 +36,9 @@ public class LandingActivity extends AppCompatActivity {
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 getApplicationContext().startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
             }
         });
     }
 
-    @Override
-    public void finish() {
-        super.finish();
-        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
-    }
 }
