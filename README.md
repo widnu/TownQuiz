@@ -1,4 +1,4 @@
-# javaassignment2
+# Android App Town Quiz
 
 Introduction
 This quiz application was designed as a teaching tool for users who want to learn the important facts about Arrowtown. Arrowtown is charming and quirky – a delightful gold rush village nestled below the beautiful peaks that surround the sparkling Arrow River. Visitors will be enchanted by Historic Arrowtown, a New Zealand treasure.
